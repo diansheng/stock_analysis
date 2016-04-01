@@ -42,7 +42,7 @@ class Data(object):
         self.url_param = url_param
         self.start = datetime.date(2010, 1, 1)
         self.end = datetime.date(2015, 12, 31)
-        self.ticker = '%5ESIT'
+        self.ticker = 'H78.SI'
         self.url=''
 
     def get_url_param(self):
